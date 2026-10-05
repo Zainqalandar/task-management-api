@@ -1,0 +1,22 @@
+Ab virtual environment:
+python3 -m venv .venv
+
+Activate:
+source .venv/bin/activate
+
+Terminal ke start me kuch aisa aa jayega:
+(.venv)
+
+Virtual environment ka matlab: is project ke Python packages separately rahenge. DRF ki official tutorial bhi virtual environment use karti hai. Django REST Framework
+
+--------------------------------------------------------------------------------------------------
+
+3. Django packages install karo
+pip install django djangorestframework "psycopg[binary]"
+
+Check:
+pip list
+
+Aapko Django aur djangorestframework nazar aane chahiye. DRF officially pip install djangorestframework se install hota hai.
+
+
