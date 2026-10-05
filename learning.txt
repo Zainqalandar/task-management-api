@@ -19,4 +19,42 @@ pip list
 
 Aapko Django aur djangorestframework nazar aane chahiye. DRF officially pip install djangorestframework se install hota hai.
 
+---------------------------------------------------------------------------------------------------
+
+4. Django project create karo
+Run:
+django-admin startproject config .
+
+Ab folder roughly:
+task-management-api/
+│
+├── config/
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+│
+├── manage.py
+└── .venv/
+
+Yahan:
+config = complete project configuration
+manage.py Django commands run karne ke liye hota hai.
+MERN me roughly:
+server.js / app.js
+
+jaisa role samajh sakte ho.
+
+-----------------------
+
+5. Server pehli baar run karo
+python manage.py runserver
+
+Browser:
+http://127.0.0.1:8000/
+
+----------------------------------------------------------------------------------------------------
+
+
+
 
